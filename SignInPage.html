@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+ 
+    <div class=" container h-60  my-4 p-5  m-auto ">
+       
+       <h1 class="my-4 text-center" >Smart Login System</h1>
+        <div class="group my-4">
+         
+          <input id="logINemail"  placeholder="Enter Your Email" class="form-control" type="email">
+          <div id="emailAlert" class="alert alert-danger my-2 d-none">email should be in this format (mail@example.com')</div>
+        </div>
+    
+        <div class="group my-4">
+          
+          <input id="logINpassword"  placeholder="Enter Your Password" class="form-control" type="password">
+          
+          <div id="passwordAlert" class="alert alert-danger my-2 d-none">password should contain atleast one number and one special character</div>
+        </div>
+    
+        
+         
+  <div id="requiredSignINInputs" class="alert alert-danger my-2 text-center d-none">ALL Inputs required</div> 
+  
+        <button onclick="loginUser()" id="logINBtn" style="width: 100%;" class="btn  mt-5 mb-2">Log in</button>
+        <p class="text-center text-white">Don’t have an account?<a class=" text-white" href="SignUpPage.html">Sign Up</a></p>
+        
+     
+    
+      </div>
+
+
+
+  <script src="JS/main.js"></script>
+  <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
